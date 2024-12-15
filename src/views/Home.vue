@@ -22,9 +22,9 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Desde sus inicios, las ciencias sociales han sido una herramienta esencial para comprender y analizar los fenómenos que moldean nuestra sociedad. En esta unidad, se estudia qué es la investigación en ciencias sociales, sus características fundamentales, y el papel que desempeñan las diferentes metodologías en la generación de conocimiento. A través de un enfoque práctico y reflexivo, exploraremos cómo los investigadores abordan problemas complejos, integrando perspectivas críticas y éticas que enriquecen el análisis social y cultural de nuestra realidad.
+              p.descripcion.mb-4 Desde la identificación de un problema hasta la construcción de un marco teórico sólido, diseñar un proyecto de investigación es el primer paso hacia la generación de conocimiento significativo. En esta unidad se estudiará cómo abordar esta fase inicial, proporcionando herramientas prácticas y conceptuales esenciales para estructurar investigaciones científicas. Este enfoque no solo prepara para resolver problemas complejos, sino que también fortalece competencias clave en múltiples áreas del saber.
 
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡Prepárate para iniciar un viaje hacia el entendimiento de las dinámicas humanas y sociales con rigor y profundidad!
+              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡Explora cómo el diseño de proyectos puede impactar su desarrollo académico y profesional!
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

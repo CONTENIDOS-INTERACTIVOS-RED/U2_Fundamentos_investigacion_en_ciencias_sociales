@@ -2,7 +2,8 @@
 .curso-main-container.creditos-vista
   BannerInterno(subTitulo="SÍNTESIS")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4.mb-md-5 La Unidad I: Introducción a la investigación en ciencias sociales establece los fundamentos teóricos esenciales para comprender el papel de la investigación en el análisis y resolución de problemas sociales. A través de tres temas principales, se exploran las características fundamentales de la investigación en ciencias sociales, los diferentes tipos de metodologías (cualitativa, cuantitativa y mixta) y el rol crítico y ético que debe asumir el investigador. Esta unidad proporciona un enfoque integral que permite a los estudiantes adquirir las bases necesarias para identificar problemáticas, elegir enfoques metodológicos adecuados y aplicar estrategias reflexivas en la generación de conocimiento. Este conocimiento inicial es clave para avanzar en el desarrollo de competencias investigativas sólidas y aplicables en diversos contextos sociales.
+    p.mb-4.mb-md-5 La Unidad 2, Diseño de proyectos de investigación, proporciona las herramientas conceptuales y prácticas necesarias para estructurar investigaciones científicas de manera sólida y significativa. Desde la identificación del problema hasta la elaboración del marco teórico, esta unidad aborda los aspectos clave que permiten a los estudiantes desarrollar proyectos de investigación rigurosos. Con un enfoque en la formulación de preguntas, hipótesis y objetivos claros, así como en el análisis de literatura previa, se busca que los participantes adquieran competencias esenciales para la planificación y ejecución de estudios académicos y profesionales. Este enfoque asegura la relevancia y viabilidad de las investigaciones, sentando las bases para un ejercicio metodológico eficiente y con impacto en diversas disciplinas.
+
     figure
       img(src='@/assets/componentes/sintesis.png', alt='Texto que describa la imagen')
     

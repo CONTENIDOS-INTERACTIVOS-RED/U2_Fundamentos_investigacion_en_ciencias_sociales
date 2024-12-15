@@ -2,30 +2,34 @@
 .curso-main-container.introduccion
   BannerInterno(subTitulo="Introducción")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-  
-    p.mb-4 Bienvenidos a la asignatura, Fundamentos de investigación en ciencias sociales. Nos complace iniciar este viaje académico junto a ustedes. 
+
+    p.mb-4 El proceso de investigación es fundamental en el avance del conocimiento y en la solución de problemas complejos. Esta unidad se enfoca en la fase inicial y estructural de cualquier investigación científica: el diseño del proyecto. Lo que nos proporciona las bases conceptuales y prácticas que nos guiarán en la creación de un proyecto de investigación robusto y significativo, desde la identificación de un problema, hasta la construcción de un marco teórico sólido.
+
     .row.mb-5
-      .col-12.col-lg-7(data-aos="fade-right")
-        p.mb-4 En la primera unidad se desarrollan tres temas esenciales: 
-        AcordionA(tipo="b")
-          .div(titulo="Primer tema")
-            p El primer tema se refiere a la definición y características de la investigación en ciencias sociales, donde abordaremos qué entendemos por investigación en este contexto, cómo se diferencia de otros tipos de investigación y cuál es su relevancia para el análisis de la sociedad. 
-          .div(titulo="Segundo tema")
-            p El segundo tema se refiere a los <strong>tipos de investigación;</strong> en esta sección, aprenderán a distinguir entre las principales metodologías empleadas en la investigación social: cualitativa, cuantitativa y mixta.
-          .div(titulo="Tercer tema")
-            p El tercer tema clave de esta unidad, se refiere al <strong>papel del investigador en las ciencias sociales.</strong> Aquí reflexionaremos sobre la importancia de la postura crítica y ética que debe adoptar el investigador.
-      .col-12.col-lg-5.d-none.d-lg-block(data-aos="fade-left")
+      .col-12.col-lg-5.d-none.d-lg-block(data-aos="fade-right")
         img(src='@/assets/curso/unidad/img-1.png', alt='Texto que describa la imagen')
+      .col-12.col-lg-7(data-aos="fade-left")
+        p.mb-4 La relevancia de esta unidad es indiscutible, dado que les permitirá desarrollar habilidades que son esenciales en múltiples disciplinas y que tendrán un impacto directo en su desarrollo académico y profesional.
+        p.mb-4 La unidad está organizada en cuatro temas principales:
+        AcordionA(tipo="b")
+          .div(titulo="Tema 1")
+            p Comenzamos con la <strong>identificación del problema de investigación</strong>, donde se exploran técnicas para delimitar un área de estudio de interés y relevancia. 
+          .div(titulo="Tema 2")
+            p A continuación, se desarrolla la <strong>formulación de preguntas e hipótesis</strong>, centrada en la capacidad de plantear preguntas precisas y en proponer hipótesis claras que orienten el proyecto. 
+          .div(titulo="Tema 3")
+            p Posteriormente, seguimos con la <strong>definición de objetivos de investigación</strong>, en donde aprenderán a establecer metas específicas y alcanzables. 
+          .div(titulo="Tema 4")
+            p Finalmente, la unidad concluye con la <strong>elaboración del marco teórico</strong>, que sitúa la investigación en un contexto de conocimiento previo, permitiendo comprender la importancia de fundamentar su proyecto en un análisis exhaustivo de la literatura existente.
     
-    .row.mb-5
-      .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0(data-aos="fade-right")
-        img(src='@/assets/curso/unidad/img-2.png', alt='Texto que describa la imagen')  
-      .col-12.col-xl-7.col-xxl-8.d-flex.flex-column
-        p.mb-4 Al finalizar esta primera unidad, el estudiante habrá adquirido una comprensión amplia de los fundamentos de la investigación en ciencias sociales, será capaz de identificar las características claves de la misma, diferenciar los distintos tipos de metodologías y entender el rol que desempeña el investigador en la construcción del conocimiento. 
-        .d-flex.align-items-start.bg-rojo.p-4.mb-4(data-aos="fade-left")
-          img.me-3(style="width: 90px" src='@/assets/curso/unidad/img-3.svg', alt='Texto que describa la imagen')
-          .d-flex.flex-column
-            p.pe-xl-3.mb-0(data-aos="fade-up") ¡Ánimo! El conocimiento es un viaje continuo, y esta primera unidad es solo el comienzo de un camino lleno de descubrimientos y aprendizajes que transformarán su manera de ver el mundo.
+    .row.mb-0
+      .col-12.col-xl-7(data-aos="fade-right")
+        p.mb-4 Al finalizar esta unidad, se habrán adquirido habilidades que permitirán organizar y estructurar las investigaciones de manera lógica y fundamentada, habilidades claves para un ejercicio profesional basado en el rigor científico, puesto que la capacidad de diseñar proyectos de investigación efectivos, es una competencia que destaca en múltiples entornos laborales y académicos, debido a que permite abordar problemas y oportunidades, de manera metódica y estratégica.
+        .bg-amarillo.p-4
+          span Esperamos que se pueda aprovechar al máximo esta unidad, que se participe de manera activa en cada tema, por lo que les invitamos a descubrir el valor del diseño de investigación como una herramienta poderosa, para generar impacto en el entorno académico y profesional.
+
+      .col-5.d-none.d-xl-block(data-aos="fade-left")
+        img(src='@/assets/curso/unidad/img-2.png', alt='Texto que describa la imagen')
+
 
 </template>
 

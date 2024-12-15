@@ -1,2 +1,1 @@
-module.exports =
-  'unidad 1: Introducción a la investigación en ciencias sociales'
+module.exports = 'Unidad 2: Diseño de proyectos de investigación'

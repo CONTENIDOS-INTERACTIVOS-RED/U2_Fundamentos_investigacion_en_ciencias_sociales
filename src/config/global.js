@@ -16,8 +16,8 @@ export default {
         imagen: require('@/assets/curso/banner-principal-decorativo-2.svg'),
       },
     ],
-    numeroUnidad: '1',
-    tituloUnidad: 'Introducción a la investigación en ciencias sociales',
+    numeroUnidad: '2',
+    tituloUnidad: 'Diseño de proyectos de investigación',
   },
   menuPrincipal: {
     menu: [
@@ -31,34 +31,54 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo:
-          'Definición y características de la investigación en ciencias sociales',
+        titulo: 'Identificación del problema de investigación',
         desarrolloContenidos: true,
-        subMenu: [],
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.1',
+            titulo: 'Características de un problema de investigación',
+            hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Métodos para identificar el problema de investigación',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo:
+              'Ejemplos prácticos de identificación y delimitación de problemas de investigación',
+            hash: 't_1_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Tipos de investigación: cualitativa, cuantitativa y mixta',
+        titulo: 'Formulación de preguntas e hipótesis',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Investigación cualitativa',
+            titulo: 'Definición y propósito de las preguntas de investigación',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Investigación cuantitativa ',
+            titulo: 'Formulación de hipótesis',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Investigación mixta',
+            titulo:
+              'Ejemplos de formulación de preguntas e hipótesis de investigación',
             hash: 't_2_3',
           },
         ],
@@ -69,7 +89,48 @@ export default {
         numero: '3',
         titulo: 'El papel del investigador en las ciencias sociales',
         desarrolloContenidos: true,
-        subMenu: [],
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Características y tipos de objetivos de investigación',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Estrategias para formular objetivos de investigación',
+            hash: 't_3_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Elaboración del marco teórico',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.1',
+            titulo: 'El marco teórico y su relevancia',
+            hash: 't_4_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.2',
+            titulo:
+              'Elementos y estrategias para la redacción de un marco teórico',
+            hash: 't_4_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.3',
+            titulo: 'Ejemplos de formulación de un marco teórico',
+            hash: 't_4_3',
+          },
+        ],
       },
       {
         nombreRuta: 'sintesis',
@@ -109,145 +170,97 @@ export default {
   referencias: [
     {
       referencia:
-        'Aravena, M., Kimelman, E., Micheli, B., Torrealba, R., & Zúñiga, J. (2006). Investigación educativa I.',
+        'Aguirre, E., Durán, V., Gorga, L., & Hernández, E. (2021). El árbol de problemas como herramienta para la evaluación de políticas.',
+      link:
+        'https://www.researchgate.net/profile/Emilio-Aguirre/publication/360973478_El_arbol_de_problemas_como_herramienta_para_la_evaluacion_de_politicas/links/6296345f1117461e03ae2738/El-arbol-de-problemas-como-herramienta-para-la-evaluacion-de-politicas.pdf',
+    },
+    {
+      referencia:
+        'Creswell, JW (2014). Investigación cualitativa, cuantitativa y mixta. Editorial Trillas.',
       link: '',
     },
     {
       referencia:
-        'Ballesteros, L. M. G., Restrepo, C. G., Rodríguez, V. A., de Castro, S. F., & Ponce, M. V. (2024). Investigación mixta:¿ qué es y qué no?. Revista Colombiana de Psiquiatría.',
-      link: 'https://doi.org/10.1016/j.rcp.2024.04.002',
-    },
-    {
-      referencia:
-        'Bonilla-Castro, E. (2005). Más allá del dilema de los métodos: la investigación en ciencias sociales. Editorial Norma.',
+        'Hernández, R., Fernández, C., & Baptista, P. (2014). Metodología de la investigación. McGraw-Hill Interamericana.',
       link: '',
     },
     {
       referencia:
-        'Creswell, J. W. (2014). Research design: Qualitative, quantitative, and mixed methods approaches (4th ed.). SAGE Publications.',
+        'Kerlinger, FN y Lee, HB (2002). Investigación del comportamiento: métodos de investigación en ciencias sociales. McGraw-Hill.',
       link: '',
     },
     {
       referencia:
-        'Denzin, N. K., & Lincoln, Y. S. (2011). The SAGE Handbook of Qualitative Research. SAGE Publications.',
+        'Ruiz, C., Valenzuela A. y Valenzuela, M. (2023). Introducción metodología de la investigación. Professionals Online S.A.C. (pp. 51-80).',
+      link:
+        'https://editorialfondo.com/index.php/ProfessionalsOnLine/catalog/view/13/15/42',
+    },
+    {
+      referencia:
+        'Sampieri, RH, Fernández-Collado, C., & Baptista, P. (2014). Metodología de la investigación. McGraw-Hill.',
       link: '',
     },
     {
       referencia:
-        'Flick, U. (2014). An introduction to qualitative research (5th ed.). SAGE Publications.',
+        'Snyder, H. (2019). Revisión de literatura como metodología de investigación: una visión general y pautas.',
       link: '',
     },
     {
       referencia:
-        'Hernández-Sampieri, R., & Mendoza, C. P. (2018). Metodología de la investigación: Las rutas cuantitativa, cualitativa y mixta (6.ª ed.). McGraw Hill.',
-      link: '',
-    },
-    {
-      referencia:
-        'Johnson, R. B., Onwuegbuzie, A. J., & Turner, L. A. (2007). Toward a definition of mixed methods research. Journal of Mixed Methods Research, 1(2), 112–133.',
-      link: 'https://doi.org/10.1177/1558689806298224',
-    },
-    {
-      referencia:
-        'Patton, M. Q. (2015). Qualitative Research & Evaluation Methods. SAGE Publications.',
+        'Yin, RK (2018). Investigación y aplicaciones de estudios de caso: diseño y métodos. Publicaciones SAGE.',
       link: '',
     },
   ],
   glosario: [
     {
-      termino: 'Análisis',
+      termino: 'Alcance de la Investigación',
       significado:
-        'Este es el proceso de revisar y entender los datos que se han recogido. Los investigadores buscan patrones o tendencias en los datos',
+        'Extensión o profundidad de la investigación que determina si el estudio será exploratorio, descriptivo, correlacional o explicativo.',
     },
     {
-      termino: 'Análisis de Contenido',
+      termino: 'Antecedentes',
       significado:
-        'Método cualitativo de interpretación sistemática de datos textuales, identificando patrones o temas relevantes',
+        'Investigaciones previas y estudios relevantes al tema en cuestión, que permiten al investigador comprender mejor el contexto y los avances en el área de estudio.',
     },
     {
-      termino: 'Análisis Estadístico',
+      termino: 'Esquema Conceptual',
       significado:
-        'Técnica cuantitativa que examina y organiza datos numéricos para validar hipótesis o descubrir patrones',
-    },
-    {
-      termino: 'Codificación',
-      significado:
-        'Proceso de categorizar datos cualitativos para identificar patrones y conceptos en el análisis de información recopilada',
-    },
-    {
-      termino: 'Datos',
-      significado:
-        'Los datos son la información que se recopila durante la investigación. Pueden ser números, palabras o imágenes que los investigadores analizan para sacar conclusiones',
-    },
-    {
-      termino: 'Etnografía',
-      significado:
-        'Método cualitativo que estudia culturas y comunidades en su entorno natural a través de observación participante y entrevistas',
-    },
-    {
-      termino: 'Fiabilidad',
-      significado:
-        'Consistencia de los resultados en estudios cuantitativos; mide la estabilidad y repetibilidad de los resultados obtenidos',
+        'Representación gráfica o esquema de los conceptos y teorías que intervienen en el marco teórico y que reflejan las relaciones entre ellos.',
     },
     {
       termino: 'Hipótesis',
       significado:
-        'Una hipótesis es una suposición que el investigador hace antes de comenzar su estudio. Es algo que se quiere probar o comprobar mediante la investigación',
+        'Suposición o afirmación comprobable que intenta dar respuesta a la pregunta de investigación. Las hipótesis son formuladas para ser verificadas o rechazadas mediante datos empíricos.',
     },
     {
-      termino: 'Método Científico',
+      termino: 'Hipótesis Alternativa',
       significado:
-        'Proceso sistemático de observación, experimentación y análisis para generar conocimiento válido y replicable',
+        'Afirmación que propone la existencia de una relación o efecto significativo entre las variables, en oposición a la hipótesis nula.',
     },
     {
-      termino: 'Métodos de investigación',
+      termino: 'Hipótesis Nula',
       significado:
-        'Esto se refiere a las formas en que los investigadores obtienen información. Los métodos pueden ser cualitativos (como entrevistas) o cuantitativos (como encuestas con números)',
+        'Proposición que establece la ausencia de relación o efecto entre las variables en estudio. Se formula para ser rechazada o confirmada en el análisis de datos.',
     },
     {
-      termino: 'Muestra',
+      termino: 'Modelo Teórico',
       significado:
-        'Grupo seleccionado que representa la población en estudio. Puede ser probabilística o no probabilística, según el método',
+        'Estructura conceptual que propone cómo los elementos del problema de investigación están interrelacionados. Los modelos teóricos ayudan a organizar y explicar la información recopilada en el marco teórico.',
     },
     {
-      termino: 'Muestreo',
+      termino: 'Operacionalización de Variables',
       significado:
-        'Proceso de selección de individuos o grupos que representan la población en estudio, esencial para generalizar resultados',
+        'Proceso que consiste en definir cómo se medirán y evaluarán las variables en el estudio, especificando indicadores y escalas de medición.',
     },
     {
-      termino: 'Observación Participante',
+      termino: 'Pregunta de Investigación',
       significado:
-        'Método cualitativo donde el investigador se integra en el entorno de estudio para observar y comprender comportamientos',
+        'Interrogante específica y fundamental que la investigación busca respuesta. La pregunta de investigación delimita el enfoque y guía el desarrollo del estudio.',
     },
     {
-      termino: 'Paradigma',
+      termino: 'Supuesto Teórico',
       significado:
-        'Conjunto de creencias y métodos que orientan la investigación, como el positivismo en cuantitativa o interpretativo en cualitativa',
-    },
-    {
-      termino: 'Teoría Fundamentada',
-      significado:
-        'Método cualitativo para desarrollar teorías a partir de los datos recolectados y analizados durante el proceso de investigación',
-    },
-    {
-      termino: 'Teoría Social',
-      significado:
-        'Marco conceptual que busca explicar y entender fenómenos sociales, como el funcionalismo o el estructuralismo',
-    },
-    {
-      termino: 'Triangulación',
-      significado:
-        'Uso de múltiples métodos o fuentes para asegurar la validez y confiabilidad en la investigación cualitativa y mixta',
-    },
-    {
-      termino: 'Validez',
-      significado:
-        'Grado en que los resultados reflejan la realidad estudiada; importante para asegurar la precisión en ambas metodologías',
-    },
-    {
-      termino: 'Variables',
-      significado:
-        'Factores medibles en investigación cuantitativa que pueden variar y afectar los resultados del estudio',
+        'Afirmación que se acepta como cierto en el marco teórico y que fundamenta los conceptos y relaciones en los que se basa la investigación.',
     },
   ],
   complementario: [
