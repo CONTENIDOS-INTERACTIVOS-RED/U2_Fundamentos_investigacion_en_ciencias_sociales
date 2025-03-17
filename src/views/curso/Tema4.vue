@@ -139,7 +139,7 @@
         .col-12.col-xl-7.col-xxl-8.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
           h2.mb-4.pb-2.me-auto Ejemplos marco teórico
           p.mb-5 En el PDF Ejemplos marco teórico, se presentan ejemplos prácticos de formulación de marcos teóricos en diversas áreas de investigación, como las redes sociales, la desigualdad de género, los medios de comunicación y la psicología. Estos ejemplos incluyen teorías relevantes, estudios previos y conceptos clave que ilustran cómo estructurar un marco teórico sólido y coherente. Aunque los ejemplos son esquemáticos, ofrecen una guía clara sobre los elementos que deben considerarse para construir una base teórica que respalde y oriente el desarrollo de la investigación.
-          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_Ejemplos de formulación de un marco teórico.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Ejemplos de marco teórico
              
@@ -170,6 +170,11 @@
             figure
               img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 
+
+    .bg-full-width.border-top.actividad(style='background-color: #ebf1f5; border-top: 5px solid #f5c145 !important')
+      .p-4.p-md-5
+        #Actividad
+          <Actividad :cuestionario='cuestionario'/>
 </template>
 
 <script>
@@ -179,6 +184,80 @@ export default {
   components: {
     BannerInterno,
   },
+  data: () => ({
+    cuestionario: {
+      tema: 'Planteamiento de Problemas de Investigación',
+      titulo: 'Ponte a prueba',
+      introduccion:
+        'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+      barajarPreguntas: true,
+      preguntas: [
+        {
+          id: 1,
+          texto:
+            'Un problema de investigación puede formularse a partir de una observación cotidiana sin necesidad de vinculación con antecedentes teóricos o estudios previos. Este puede surgir de una necesidad social o científica previamente identificada en un área de conocimiento o práctica. La vinculación de la literatura es un ejercicio posterior al planteamiento.',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 2,
+          texto:
+            'Una pregunta problematizadora puede estar formulada en términos de soluciones o respuestas esperadas, por lo que debe estar formulada de tal manera que invite a la investigación y en un caso eventual pueda ser respondida fácilmente con un "sí" o un "no", dependiendo de las variables y condiciones que se han planteado en el problema.',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 3,
+          texto:
+            'El problema de investigación no debe limitarse a un solo contexto, ya que es preferible que tenga una aplicación generalizable en cualquier escenario, deben tenerse implícitas las variables que se relacionan en la investigación y la justificación debe ser formulada claramente a modo de pregunta.',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 4,
+          texto:
+            'Un buen planteamiento del problema de investigación debe ser relevante, novedoso y factible de abordar dentro de los recursos disponibles y el tiempo determinado. Aunque un problema puede surgir de una observación cotidiana y se puede construir sobre un conocimiento existente, deberá incluir la identificación de las causas y las consecuencias del fenómeno que se estudiará.',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 5,
+          texto:
+            'Es posible que un problema de investigación no esté relacionado con ningún fenómeno observable, siempre que el investigador pueda definir una hipótesis clara, ya que, si se proporciona en éste la dirección y enfoque de estudio, ayudando a formular objetivos específicos y delimitando los aspectos que se investigarán, serán elementos suficientes para un buen planteamiento.',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+      ],
+      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_reprobado:
+        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+    },
+  }),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()

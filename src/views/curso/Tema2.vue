@@ -6,7 +6,7 @@
     p.mb-4 Para comenzar con el estudio de la temática, lo invitamos a ver el siguiente video.
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        <iframe width="1903" height="748" src="https://www.youtube.com/embed/F4F4gc6kqQ0" title="Formulación de preguntas e hipótesis" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     
     #t_2_1.titulo-segundo
       div.d-flex
@@ -123,7 +123,7 @@
       .col-12.col-xl-7(data-aos="fade-right")
         .bg-amarillo.p-4
           p.mb-4 El PDF Ejemplos de formulación, presenta ejemplos prácticos que ilustran cómo derivar preguntas e hipótesis a partir de problemas previamente identificados, abarcando una variedad de temáticas que incluyen el teletrabajo, las redes sociales, la pobreza, la seguridad ciudadana, la igualdad de género y la salud pública. Los ejemplos no solo demuestran la importancia de formular preguntas claras y específicas, sino también de plantear hipótesis que sean verificables y que orienten la recolección y el análisis de datos. Con este material, se busca proporcionar herramientas útiles para quienes deseen desarrollar investigaciones rigurosas y relevantes, contribuyendo a la generación de conocimiento en diversos campos de estudio.
-          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_Ejemplos de formulación.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Ejemplos de formulación
 

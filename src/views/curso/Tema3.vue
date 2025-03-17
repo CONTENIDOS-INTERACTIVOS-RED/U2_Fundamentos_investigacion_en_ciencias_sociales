@@ -35,7 +35,7 @@
         p.mb-4 La formulación de objetivos específicos y alcanzables es crucial, dado que evita la dispersión y permite mantener la investigación orientada hacia resultados precisos y significativos. Una investigación sin objetivos claros, puede carecer de dirección y ser difícil de interpretar al final del proceso (Creswell, 2014).
         .bg-amarillo.p-4
           p.mb-4 Para comprender a fondo las características y tipos de objetivos de investigación, lo invitamos a consultar el documento Características y tipos de objetivos de investigación. En él se exploran las diferencias entre objetivos generales y específicos, su importancia dentro del proceso investigativo y cómo redactarlos de manera clara y precisa. 
-          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_Características y tipos.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Características y tipos de objetivos de investigación
       .col-5.d-none.d-xl-block(data-aos="fade-left")
@@ -55,7 +55,7 @@
         
         .bg-amarillo.p-4
           p.mb-4 Lo invitamos a consultar el  PDF Estrategias, el cual ofrece estrategias clave para redactar objetivos efectivos, destacando la importancia de una definición precisa del problema, el uso de verbos concretos y medibles, y la consistencia entre el objetivo general y los específicos. Además, se resalta la relevancia de revisar la literatura existente para identificar áreas novedosas y garantizar la pertinencia de los objetivos propuestos. A través de estas orientaciones, los investigadores podrán establecer metas claras y alcanzables que contribuyan al éxito de sus proyectos.
-          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_Estrategias.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Estrategias
 
@@ -68,7 +68,7 @@
         .col-12.col-xl-7.col-xxl-8.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
           h2.mb-4.pb-2.me-auto Ejemplos de formulación
           p.mb-5 En el PDF Ejemplos formulación, se presentan ejemplos prácticos que ilustran cómo definir objetivos generales y específicos en diferentes áreas de investigación, como el impacto de las redes sociales, la desigualdad de género, la percepción de inseguridad y la prevención del consumo de tabaco. Estos ejemplos destacan la manera en que los objetivos específicos descomponen el objetivo general, abordando diferentes dimensiones del problema para garantizar una comprensión integral y profunda del tema en cuestión. Con este enfoque, se busca proporcionar una guía para desarrollar investigaciones sólidas y bien fundamentadas.
-          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_Ejemplos de formulación de objetivos de investigación.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Ejemplos de formulación
              

@@ -110,7 +110,7 @@
         .bg-amarillo.p-4
           p.mb-4 A continuación, abordaremos unas metodologías y tips que nos permitirán desglosar y analizar de manera efectiva, un problema de investigación, permitiéndonos llegar a la raíz del mismo y así poder abordarlo de manera correcta, todo dependerá de las condiciones y entorno en que este se presente.
           p.mb-4 Para profundizar en metodologías y estrategias que faciliten el análisis efectivo de problemas de investigación, lo invitamos a consultar el documento Métodos para identificar el problema de investigación. En él encontrará herramientas clave para desglosar y comprender un problema, identificar su raíz y abordarlo de manera adecuada según las condiciones y el entorno específicos.
-          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_Métodos para identificar.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Métodos para identificar el problema de investigación
 
@@ -130,7 +130,7 @@
       .col-12.col-xl-7(data-aos="fade-left")
         .bg-amarillo.p-4
           p.mb-4 En el PDF Ejemplos prácticos se presentan ejemplos prácticos que ilustran cómo transformar observaciones generales en problemas de investigación delimitados, considerando aspectos como el contexto, la población objetivo, el período de estudio y las variables específicas a analizar. Estos ejercicios buscan proporcionar herramientas metodológicas a investigadores, estudiantes y profesionales interesados en desarrollar investigaciones con enfoques precisos y objetivos claros. A través de ejemplos aplicados a diversos campos como la publicidad digital, la educación, el medio ambiente y la percepción social, se exploran estrategias para formular problemas de investigación que sean manejables y significativos, contribuyendo así al desarrollo de conocimiento riguroso y útil.
-          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_Ejemplos prácticos de identificación y delimitación de problemas de investigación.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Ejemplos prácticos.
 
