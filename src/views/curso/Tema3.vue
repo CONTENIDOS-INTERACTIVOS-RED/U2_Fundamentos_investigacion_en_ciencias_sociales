@@ -89,10 +89,6 @@
               a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/40513") Baena Paz, G. M. E. (2017). Metodología de la investigación (3 ed.). Grupo Editorial Patria.
 
             p.d-flex.my-4
-              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://www.scielo.cl/pdf/rts/v18n29/0719-7721-rts-18-29-89.pdf") Meier-Lebrón, J. (2023). Capacidad del Vínculo de Apego en Adolescentes Criados/as por Familias Homoparentales. Rumbos TS, 18(29), 89-115.
-
-            p.d-flex.my-4
               img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
               a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=DQlp0DvPBwU") Higuera, M. (2023). ¡Superfórmula! para redactar OBJETIVOS / Objetivos generales / objetivos específicos [Vídeo]
           .col-12.col-md-6.col-lg-3

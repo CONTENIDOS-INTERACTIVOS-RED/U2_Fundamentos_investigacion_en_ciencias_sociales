@@ -160,10 +160,6 @@
               a.text-small.text-primary(target="_blank", href="http://scielo.iics.una.py//scielo.php?script=sci_arttext&pid=S2708-04122023000100102") Salinas-Atausinchi, Y., et al. (2023). ¿Cómo debería implementarse el marco teórico en la investigación cuantitativa?. Revista científica en ciencias sociales, 5(1), 102-113.
 
             p.d-flex.my-4
-              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://revistas.unal.edu.co/index.php/ede/article/view/96326/85493") Vélez-Montes, G. (2022). El mecanismo de protección al cesante: revisión de literatura en el marco de los seguros de desempleo para Colombia. Ensayos de Economía, 32(61), 80-101.
-
-            p.d-flex.my-4
               img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
               a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=5hpXwN8OUWM") Sarmiento, M. (2019). El marco teórico de una investigación [Vídeo]
           .col-12.col-md-6.col-lg-3
