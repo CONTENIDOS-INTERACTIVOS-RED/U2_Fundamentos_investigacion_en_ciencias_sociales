@@ -68,7 +68,7 @@
         .col-12.col-xl-7.col-xxl-8.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
           h2.mb-4.pb-2.me-auto Ejemplos de formulación
           p.mb-5 En el PDF Ejemplos formulación, se presentan ejemplos prácticos que ilustran cómo definir objetivos generales y específicos en diferentes áreas de investigación, como el impacto de las redes sociales, la desigualdad de género, la percepción de inseguridad y la prevención del consumo de tabaco. Estos ejemplos destacan la manera en que los objetivos específicos descomponen el objetivo general, abordando diferentes dimensiones del problema para garantizar una comprensión integral y profunda del tema en cuestión. Con este enfoque, se busca proporcionar una guía para desarrollar investigaciones sólidas y bien fundamentadas.
-          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_Ejemplos de formulación de objetivos de investigación.pdf')" target="_blank")
+          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_Ejemplos de formulación de objetivos.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Ejemplos de formulación
              

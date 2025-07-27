@@ -130,7 +130,7 @@
       .col-12.col-xl-7(data-aos="fade-left")
         .bg-amarillo.p-4
           p.mb-4 En el PDF Ejemplos prácticos se presentan ejemplos prácticos que ilustran cómo transformar observaciones generales en problemas de investigación delimitados, considerando aspectos como el contexto, la población objetivo, el período de estudio y las variables específicas a analizar. Estos ejercicios buscan proporcionar herramientas metodológicas a investigadores, estudiantes y profesionales interesados en desarrollar investigaciones con enfoques precisos y objetivos claros. A través de ejemplos aplicados a diversos campos como la publicidad digital, la educación, el medio ambiente y la percepción social, se exploran estrategias para formular problemas de investigación que sean manejables y significativos, contribuyendo así al desarrollo de conocimiento riguroso y útil.
-          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_Ejemplos prácticos de identificación y delimitación de problemas de investigación.pdf')" target="_blank")
+          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_Ejemplos prácticos de identificación.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Ejemplos prácticos.
 
